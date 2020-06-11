@@ -1,6 +1,6 @@
 Example app demonstrating that Firefox and Chrome treat relative paths differently - Firefox treats sourceURL lines in a js file as relative to the JS file, but Chrome treats them as relative to the html page which loaded the JS to begin with.
 
-Run `python -m http.server` as an easy way to see the requests each browser makes.
+Run `sh start.sh` as an easy way to see the requests each browser makes.
 
 Results in Firefox when loading `/index.html` ("seems to work" from my perspective):
 ```
